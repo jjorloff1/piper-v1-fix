@@ -5,7 +5,7 @@ with open('/etc/apt/sources.list', 'r') as f:
 # Fix 1: Change raspbian.raspberrypi.org to archive.raspbian.com
 content = content.replace(
     "http://raspbian.raspberrypi.org/raspbian/",
-    "http://archive.raspbian.com/raspbian/"
+    "http://legacy.raspbian.org/raspbian/"
 )
 
 # Fix 2: Comment out the Piper repository (it's offline)
